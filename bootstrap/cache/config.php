@@ -527,7 +527,7 @@
     'name' => 'One Future Trust',
     'domain' => NULL,
     'url' => 'http://onefuturetrust.test',
-    'path' => '/nova',
+    'path' => '/admin',
     'guard' => NULL,
     'passwords' => NULL,
     'middleware' => 
