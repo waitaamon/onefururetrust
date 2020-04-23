@@ -1,0 +1,5 @@
+SIMS HOST
+====================
+database: simscoke_onefuturetrust
+user: simscoke_onefuture_trust
+password: cE,xi_5_W?(m
