@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c3e226e-5ecb-40c6-a548-6ad01fec63f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/ObjectiveSlider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ObjectiveSlider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/events/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/events/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/gallery/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gallery/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/landing/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +200,7 @@
       <workItem from="1587356555061" duration="25048000" />
       <workItem from="1587444203526" duration="25380000" />
       <workItem from="1587510112309" duration="13539000" />
-      <workItem from="1587618864594" duration="6852000" />
+      <workItem from="1587618864594" duration="9855000" />
     </task>
     <servers />
   </component>

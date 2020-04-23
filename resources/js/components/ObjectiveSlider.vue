@@ -1,8 +1,8 @@
 <template>
     <div class="row justify-content-start" v-if="objectives.length">
-        <carousel :autoplay="true" :autoplayHoverPause="true" :perPage="options.perPage">
+        <carousel :autoplay="true" :autoplayTimeout="4000" :perPage="options.perPage" :paginationEnabled="false">
             <slide v-for="objective in objectives" :key="objective.id" class="mw-100">
-                <div class="intro-item mb-5 mb-lg-0 px-3 col-sm-6 col-md-12">
+                <div class="intro-item mb-5 mb-lg-0 px-3 col-12 col-md-12">
                     <img :src="objective.icon" alt="" class="img-fluid w-100 img-thumbnail">
                     <h5 class="mt-2 mb-1 h5">{{ objective.title }}</h5>
                     <p class="text-justify text-sm">{{ objective.description }} </p>
