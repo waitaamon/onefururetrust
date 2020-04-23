@@ -19,24 +19,26 @@
     <section class="section event">
         <div class="container">
             <div class="row">
-                <h4>Upcomming Events</h4>
+                <h4 class="content-title-min">Upcomming Events</h4>
             </div>
             <div class="row justify-content-start">
                 @foreach($upcoming as $event)
                     <div class="col-lg-4 col-md-6">
-                    <div class="card event-item mb-4">
-                        <img src="{{ asset('storage/' . $event->image ) }}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class=""><a href="{{ '/events/'. $event->slug }}">{{ $event->title }}</a></h5>
-                            <p class="card-text text-sm">{{ $event->short_description }}</p>
+                        <div class="card event-item mb-4">
+                            <img src="{{ asset('storage/' . $event->image ) }}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class=""><a href="{{ '/events/'. $event->slug }}">{{ $event->title }}</a></h5>
+                                <p class="card-text text-sm text-justify">{{ $event->short_description }}</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item text-sm"><strong>Date
+                                        : </strong> {{ $event->date->format('Y-M-d H:i:s') }}</li>
+                                <li class="list-group-item text-sm"><strong>Location : </strong> {{ $event->location }}
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><strong>Date : </strong> {{ $event->date->format('Y-M-d H:i:s') }}</li>
-                            <li class="list-group-item"><strong>Location : </strong> {{ $event->location }}</li>
-                        </ul>
                     </div>
-                </div>
-                    @endforeach
+                @endforeach
             </div>
         </div>
     </section>
@@ -44,20 +46,22 @@
     <section class="section event">
         <div class="container">
             <div class="row">
-                <h4>Previous Events</h4>
+                <h4 class="content-title-min">Previous Events</h4>
             </div>
             <div class="row justify-content-start">
                 @foreach($previous as $event)
                     <div class="col-lg-4 col-md-6">
                         <div class="card event-item mb-4">
-                            <img src="{{ asset('storage/' . $event->image ) }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('storage/' . $event->image ) }}" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class=""><a href="{{ '/events/'. $event->slug }}">{{ $event->title }}</a></h5>
-                                <p class="card-text text-sm">{{ $event->short_description }}</p>
+                                <p class="card-text text-sm text-justify">{{ $event->short_description }}</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><strong>Date : </strong> {{ $event->date->format('Y-M-d H:i:s') }}</li>
-                                <li class="list-group-item"><strong>Location : </strong> {{ $event->location }}</li>
+                                <li class="list-group-item text-sm"><strong>Date
+                                        : </strong> {{ $event->date->format('Y-M-d H:i:s') }}</li>
+                                <li class="list-group-item text-sm"><strong>Location : </strong> {{ $event->location }}
+                                </li>
                             </ul>
                         </div>
                     </div>

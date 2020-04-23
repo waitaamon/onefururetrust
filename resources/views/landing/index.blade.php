@@ -11,8 +11,7 @@
                 <div class="col-lg-6">
                     <div class="section-title">
                         <span class="text-color ">What we do</span>
-                        <h2 class="mt-3 content-title">TOWARDS
-                            A BETTER WORLD</h2>
+                        <h2 class="mt-3 content-title-min-primary">TOWARDS A BETTER WORLD</h2>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -21,7 +20,9 @@
                         the world is facing today.</p>
                 </div>
             </div>
+
             <objectives-slider></objectives-slider>
+
         </div>
     </section>
 
@@ -45,7 +46,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">
                     <div class="section-title">
-                        <h2 class="mt-3 content-title">Latest projects</h2>
+                        <h2 class="mt-3 content-title-min">Latest projects</h2>
                     </div>
                 </div>
             </div>
@@ -88,7 +89,7 @@
                 <div class="col-lg-8 col-md-10">
                     <div class="section-title text-center">
                         <span class="text-color">Our Gallery</span>
-                        <h2 class="mt-3 mb-4 position-relative ">We connect with people across different sectors</h2>
+                        <h2 class="mt-3 mb-4 position-relative content-title-min ">We connect with people across different sectors</h2>
                     </div>
                 </div>
             </div>
@@ -98,12 +99,10 @@
             <div class="gallery-wrap">
                 <div class="row">
                     @foreach($photos as $photo)
-                        <div class="col-lg-4">
-                            <div class="gallery-item">
-                                <a href="{{ url($photo->getFullUrl()) }}" class="gallery-popup">
-                                    <img src="{{ url($photo->getFullUrl()) }}" alt="" class="img-fluid w-100">
+                        <div class="gallery-item col-6 col-md-3">
+                                <a href="{{ url($photo->getFullUrl()) }}" class="gallery-popup thumbnail h-auto">
+                                    <img src="{{ url($photo->getFullUrl()) }}" alt="" class="img-fluid img-thumbnail w-100">
                                 </a>
-                            </div>
                         </div>
                     @endforeach
                 </div>

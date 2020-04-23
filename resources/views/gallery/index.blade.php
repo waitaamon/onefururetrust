@@ -19,10 +19,10 @@
             <div class="gallery-wrap">
                 <div class="row">
                     @foreach($photos as $photo)
-                        <div class="col-lg-4">
+                        <div class="col-md-3 col-6">
                             <div class="gallery-item">
                                 <a href="{{ url($photo->getFullUrl()) }}" class="gallery-popup">
-                                    <img src="{{ url($photo->getFullUrl()) }}" alt="" class="img-fluid w-100">
+                                    <img src="{{ url($photo->getFullUrl()) }}" alt="" class="img-fluid img-thumbnail w-100">
                                 </a>
                             </div>
                         </div>

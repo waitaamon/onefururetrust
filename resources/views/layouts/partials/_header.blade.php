@@ -1,14 +1,14 @@
 <header class="navigation">
     <div class="header-top ">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6 col-md-4 text-center text-lg-left text-md-left">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-8 text-center text-lg-left text-md-left">
                     <div class="header-top-info">
-                        <a href="tel:+23-345-67890"><i class="icofont-phone mr-2"></i><span>+254 714 173614</span></a>
+                        <a href="tel:+254 714 173614"><i class="icofont-phone mr-2"></i><span>+254 714 173614 &nbsp; | &nbsp; +254 741400 351 &nbsp; | &nbsp; +254 723 130137</span></a>
                         <a href="mailto:support@gmail.com"><i class="icofont-email mr-2"></i><span>info@onefuturetrust.org</span></a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-8">
+                <div class="col-md-4">
                     <div class="header-top-right text-center text-lg-right text-md-right mt-3 mt-lg-0">
                         <a href="https://www.facebook.com/One-World-One-Future-103481077971543" target="_blank"><i class="icofont-facebook"></i></a>
                         <a href="https://twitter.com/OneWorldOneFut1" target="_blank"><i class="icofont-twitter"></i></a>

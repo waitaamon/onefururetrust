@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-lg-6 col-sm-12 ">
                     <div class="contact-content">
-                        <h2 class="mb-5">We’d love to hear from you! <br>Give us call, send us a message?</h2>
+                        <h2 class="mb-5 content-title-min">We’d love to hear from you! <br>Give us call, send us a message?</h2>
                         <ul class="address-block list-unstyled">
                             <li>
                                 <h6 class="mb-2">Address</h6>
