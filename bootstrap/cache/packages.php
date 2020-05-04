@@ -35,6 +35,17 @@
       'Image' => 'Intervention\\Image\\Facades\\Image',
     ),
   ),
+  'laracasts/flash' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laracasts\\Flash\\FlashServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Flash' => 'Laracasts\\Flash\\Flash',
+    ),
+  ),
   'laravel/nova' => 
   array (
     'providers' => 

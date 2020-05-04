@@ -1,6 +1,6 @@
 <template>
     <div class="row justify-content-start" v-if="objectives.length">
-        <carousel :autoplay="true" :autoplayTimeout="4000" :perPage="options.perPage" :paginationEnabled="false">
+        <carousel :autoplay="true" :autoplayTimeout="4000" :perPageCustom="options.perPageCustom" :paginationEnabled="false">
             <slide v-for="objective in objectives" :key="objective.id" class="mw-100">
                 <div class="intro-item mb-5 mb-lg-0 px-3 col-12 col-md-12">
                     <img :src="objective.icon" alt="" class="img-fluid w-100 img-thumbnail">
@@ -23,8 +23,11 @@
 			return {
 				objectives: [],
 				options: {
-					perPage: 4,
-					loop: true
+					loop: true,
+					perPageCustom: [
+						[320, 2],
+						[576, 4],
+					]
 				}
 			}
 		},
@@ -49,6 +52,7 @@
     img {
         max-height: 150px;
     }
+
     .VueCarousel {
         width: 100%;
     }

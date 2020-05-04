@@ -2,38 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3e226e-5ecb-40c6-a548-6ad01fec63f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/Content/EventResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/EventSlider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partners/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partners/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/onefuturetrust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onefuturetrust.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Domain/Events/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/Events/Event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Domain/Partners/Partner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/Partners/Partner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Content/EventsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Content/EventsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Contacts/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Contacts/ContactController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Partners/PartnersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Partners/PartnersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Nova/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Nova/Event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Nova/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Nova/Gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Nova/Partner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Nova/Partner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Nova/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Nova/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_20_104959_create_partners_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_20_104959_create_partners_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_21_060522_create_events_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_21_060522_create_events_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/packages.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/packages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/LandingSlider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/LandingSlider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/EventSlider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/EventSlider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/ObjectiveSlider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ObjectiveSlider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/RegisterPartner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/RegisterPartner.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/gallery/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gallery/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/landing/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partners/get-involved.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partners/get-involved.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +187,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/ebess/advanced-nova-media-library" />
       <path value="$PROJECT_DIR$/vendor/timothyasp/nova-color-field" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
     </include_path>
   </component>
   <component name="ProjectId" id="1acOTpIIWckOsOr1h2qeQnP1XhM" />
@@ -266,7 +249,7 @@
       <workItem from="1587618864594" duration="12247000" />
       <workItem from="1587796573301" duration="1787000" />
       <workItem from="1587995373781" duration="274000" />
-      <workItem from="1588594644914" duration="8439000" />
+      <workItem from="1588594644914" duration="10595000" />
     </task>
     <servers />
   </component>

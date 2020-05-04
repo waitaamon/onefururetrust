@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Mail\NewContactUs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 class ContactController extends Controller
 {
@@ -35,6 +36,8 @@ class ContactController extends Controller
 
 		Mail::to('waitaamon@gmail.com')->send(new NewContactUs($contact));
 
-		return redirect()->route('contact.index')->with('success', 'Message received we will get back to you shortly');
+		Session::flash('message', 'Message received we will get back to you shortly.');
+
+		return redirect()->route('contact.index');
 	}
 }

@@ -1945,6 +1945,13 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'event-slider',
@@ -1954,7 +1961,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   data: function data() {
     return {
-      events: []
+      events: [],
+      perPageCustom: [[320, 2], [576, 4]]
     };
   },
   methods: {
@@ -2125,8 +2133,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     return {
       objectives: [],
       options: {
-        perPage: 4,
-        loop: true
+        loop: true,
+        perPageCustom: [[320, 2], [576, 4]]
       }
     };
   },
@@ -2374,8 +2382,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             switch (_context2.prev = _context2.next) {
               case 0:
                 return _context2.abrupt("return", axios.get('/partner/prerequisites').then(function (response) {
-                  _this2.projects = response.projects;
-                  _this2.interests = response.interests;
+                  _this2.projects = response.data.projects;
+                  _this2.interests = response.data.interests;
                 })["catch"](function (e) {
                   console.error('error');
                 }));
@@ -39611,9 +39619,11 @@ var render = function() {
             {
               attrs: {
                 autoplay: true,
+                loop: true,
                 autoplayTimeout: 5000,
-                perPage: 4,
-                paginationEnabled: false
+                paginationEnabled: false,
+                centerMode: true,
+                perPageCustom: _vm.perPageCustom
               }
             },
             _vm._l(_vm.events, function(event) {
@@ -39778,7 +39788,7 @@ var render = function() {
               attrs: {
                 autoplay: true,
                 autoplayTimeout: 4000,
-                perPage: _vm.options.perPage,
+                perPageCustom: _vm.options.perPageCustom,
                 paginationEnabled: false
               }
             },

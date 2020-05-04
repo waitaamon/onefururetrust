@@ -62,6 +62,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
+                    @if (Session::has('message'))
+                        <div class="alert alert-success">{{ Session::get('message') }}</div>
+                    @endif
                     <form id="contact-form" class="contact__form" method="post" action="{{ route('contact.post') }}">
                         @csrf
                         <span class="text-color">Send a message</span>

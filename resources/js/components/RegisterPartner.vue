@@ -94,8 +94,8 @@
 			async prerequisites() {
 				return axios.get('/partner/prerequisites')
 					.then(response => {
-						this.projects = response.projects
-						this.interests = response.interests
+						this.projects = response.data.projects
+						this.interests = response.data.interests
 					})
 					.catch(e => {
 						console.error('error')

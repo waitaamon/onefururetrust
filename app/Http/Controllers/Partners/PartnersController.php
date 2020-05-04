@@ -39,8 +39,8 @@ class PartnersController extends Controller
 			'phone' => 'required|string|min:3|max:20',
 			'category' => 'required|string',
 			'amount' => 'nullable|numeric',
-			'interest' => ' nullable|string',
-			'project' => 'nullable|string',
+			'interest' => ' nullable|integer',
+			'project' => 'nullable|integer',
 		]);
 
 		Partner::create(array_merge([

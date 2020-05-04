@@ -64,7 +64,8 @@ class Event extends Resource
 			->rules('required', 'string', 'max:200'),
 
 			Text::make('Link')
-			->rules('required', 'string', 'url'),
+			->rules('required', 'string', 'url')
+			->hideFromIndex(),
 
 			Image::make('Cover Image', 'image')
 				->disk('public')

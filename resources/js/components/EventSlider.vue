@@ -1,6 +1,13 @@
 <template>
     <div class="row justify-content-start" v-if="events.length">
-        <carousel :autoplay="true" :autoplayTimeout="5000" :perPage="4" :paginationEnabled="false">
+        <carousel
+                :autoplay="true"
+                :loop="true"
+                :autoplayTimeout="5000"
+                :paginationEnabled="false"
+                :centerMode="true"
+                :perPageCustom="perPageCustom"
+        >
             <slide v-for="event in events" :key="event.id" class="col-12 col-sm-3">
                 <div class="intro-item mb-5 mb-lg-0 px-3 col-12">
                     <img :src="event.image" alt="" class="img-fluid w-100 img-thumbnail">
@@ -22,6 +29,10 @@
 		data() {
 			return {
 				events: [],
+				perPageCustom: [
+					[320, 2],
+					[576, 4],
+                ]
 			}
 		},
 		methods: {
@@ -45,6 +56,7 @@
     img {
         max-height: 150px;
     }
+
     .VueCarousel {
         width: 100%;
     }
