@@ -8,14 +8,19 @@
                 :loop="true"
                 :paginationEnabled="false"
         >
-            <slide v-for="{image, id} in sliders" :key="id">
+            <slide v-for="slider in sliders" :key="slider.id">
                 <div
                         class="image-slider d-flex justify-content-center align-items-center"
-                        :style='{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(${image})` }'
+                        :style='{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(${slider.image})` }'
                 >
                     <div class="text-center">
-                        <h2 class="content-title mt-4 text-white">ONE WORLD ONE FUTURE </h2>
-                        <h4 class="h4 text-warning">TOWARDS A BETTER WORLD</h4>
+                        <h2
+                                class="content-title mt-4"
+                                :style="{color: `${slider.title_color}`}"
+                        >
+                            {{ slider.title }}
+                        </h2>
+                        <p class="text-center" :style="{color: `${slider.subtitle_color}`}">{{ slider.subtitle}}</p>
                     </div>
                 </div>
             </slide>
@@ -58,7 +63,8 @@
     .image-slider {
         height: 400px;
         width: 100%;
-        background-repeat:no-repeat;
+        background-repeat: no-repeat;
         background-position: center center;
+        background-size: cover;
     }
 </style>
