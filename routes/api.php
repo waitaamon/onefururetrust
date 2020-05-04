@@ -8,3 +8,6 @@ Route::get('objectives', 'Content\ObjectivesController');
 
 //objectives
 Route::get('partners', 'Partners\PartnersController@index');
+
+//events
+Route::get('events', 'Content\EventsController@index');

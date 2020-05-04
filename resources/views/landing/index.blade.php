@@ -8,16 +8,17 @@
     <section class="section intro">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="section-title">
+                <div class="col-12">
+                    <div class="section-title text-center">
                         <span class="text-color ">What we do</span>
                         <h2 class="mt-3 content-title-min-primary">TOWARDS A BETTER WORLD</h2>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <p>Our operations and principles are guided by our founders’ belief in a fairer world and that
-                        development is possible in all parts of the world. we are geared towards tackling the problems
-                        the world is facing today.</p>
+                <div class="col-12">
+                    <p class="text-center">Our operations and principles are guided by our founders’ belief in a fairer
+                        world and that
+                        development is possible in all parts of the world. <span style="color: rgba(7, 171, 85, 1) ">we are geared towards tackling the problems
+                            the world is facing today. </span></p>
                 </div>
             </div>
 
@@ -34,7 +35,7 @@
                         <h2 class="text-white text- mb-5 mt-3">We are a non-profit organisation established for
                             charitable purposes. We believe in development co-operation, not to create a perfect world
                             but to help create a better one.</h2>
-                        <a href="" class="btn btn-main rounded">Get involved</a>
+                        <a href="/get-involved" class="btn btn-main rounded">Get involved</a>
                     </div>
                 </div>
             </div>
@@ -46,7 +47,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7 text-center">
                     <div class="section-title">
-                        <h2 class="mt-3 content-title-min">Latest projects</h2>
+                        <h2 class="mt-3 content-title-min-primary">Latest projects</h2>
                     </div>
                 </div>
             </div>
@@ -83,13 +84,29 @@
         </div>
     </section>
 
+    <section class="section intro">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="section-title text-center">
+                        <h2 class="mt-3 content-title-min-primary">Events</h2>
+                    </div>
+                </div>
+            </div>
+
+            <events-slider></events-slider>
+
+        </div>
+    </section>
+
+
+
     <section class="section gallery">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8 col-md-10">
-                    <div class="section-title text-center">
-                        <span class="text-color">Our Gallery</span>
-                        <h2 class="mt-3 mb-4 position-relative content-title-min ">We connect with people across different sectors</h2>
+                <div class="col-lg-7 text-center">
+                    <div class="section-title">
+                        <h2 class="mt-3 content-title-min-primary">Our gallery</h2>
                     </div>
                 </div>
             </div>
@@ -100,9 +117,10 @@
                 <div class="row">
                     @foreach($photos as $photo)
                         <div class="gallery-item col-6 col-md-3">
-                                <a href="{{ url($photo->getFullUrl()) }}" class="gallery-popup thumbnail h-auto">
-                                    <img src="{{ url($photo->getFullUrl()) }}" alt="" class="img-fluid img-thumbnail w-100">
-                                </a>
+                            <a href="{{ url($photo->getFullUrl()) }}" class="gallery-popup thumbnail h-auto">
+                                <img src="{{ url($photo->getFullUrl()) }}" alt=""
+                                     class="img-fluid img-thumbnail w-100">
+                            </a>
                         </div>
                     @endforeach
                 </div>

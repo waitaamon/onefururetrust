@@ -6,8 +6,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                        <span class="text-white">Be a Volunteer / Donor</span>
-                        <h1 class="text-capitalize mb-4 text-lg">Become one of us</h1>
+                        <span class="" style="color: rgba(7, 171, 85, 1) ">Be a Volunteer / Donor</span>
+                        <h3 class="text-capitalize mb-2 h3 text-white">Become one of us</h3>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <span class="text-color mt-5 mt-lg-0">Join With Us</span>
+                    <span class="text-color mt-5 mt-lg-0">Join Us</span>
                     <h2 class="mb-5">Become A Volunteer / Donor</h2>
                     <register-partner></register-partner>
                 </div>

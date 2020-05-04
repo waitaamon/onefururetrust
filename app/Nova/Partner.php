@@ -2,6 +2,7 @@
 
 namespace App\Nova;
 
+use Ebess\AdvancedNovaMediaLibrary\Fields\Images;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\Boolean;
@@ -9,6 +10,7 @@ use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Number;
 use Laravel\Nova\Fields\Select;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Partner extends Resource
@@ -63,7 +65,10 @@ class Partner extends Resource
 				->rules('required'),
 
 			Text::make('Name')
-				->rules('required', 'string'),
+				->rules('required', 'string', 'max:150'),
+
+			Textarea::make('Description')
+			->rules('required', 'string', 'max:400'),
 
 			Text::make('Location')
 				->rules('required', 'string'),
@@ -86,7 +91,23 @@ class Partner extends Resource
 
 			BelongsTo::make('Partner Area Of Interest', 'interest')
 				->nullable()
-				->hideFromIndex()
+				->hideFromIndex(),
+
+			Images::make('Logo')
+				->conversionOnPreview('logo-medium-size')
+				->conversionOnDetailView('logo-thumb')
+				->conversionOnIndexView('logo-thumb')
+				->conversionOnForm('logo-thumb')
+				->fullSize()
+				->rules('required'),
+
+			Images::make('Photos', 'gallery')
+				->conversionOnPreview('medium-size')
+				->conversionOnDetailView('thumb')
+				->conversionOnIndexView('thumb')
+				->conversionOnForm('thumb')
+				->fullSize()
+				->rules('nullable'),
 		];
 	}
 

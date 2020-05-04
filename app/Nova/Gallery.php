@@ -66,8 +66,7 @@ class Gallery extends Resource
 				->conversionOnIndexView('thumb')
 				->conversionOnForm('thumb')
 				->fullSize()
-				->rules('required')
-				->singleImageRules('dimensions:min_width=100'),
+				->rules('required'),
 		];
 	}
 

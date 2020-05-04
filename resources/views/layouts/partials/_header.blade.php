@@ -45,7 +45,7 @@
                         <a class="nav-link" href="/gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/events">Events</a>
+                        <a class="nav-link" href="/partners">Partners</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contact-us">Contact us</a>

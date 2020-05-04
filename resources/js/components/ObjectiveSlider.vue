@@ -49,4 +49,7 @@
     img {
         max-height: 150px;
     }
+    .VueCarousel {
+        width: 100%;
+    }
 </style>

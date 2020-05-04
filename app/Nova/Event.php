@@ -57,21 +57,17 @@ class Event extends Resource
 			Text::make('Title')
 				->rules('required', 'string'),
 
-			Text::make('Location')
-				->rules('required', 'string'),
-
 			DateTime::make('Date and time', 'date')
 				->rules('required'),
 
-			Textarea::make('Short Description')
+			Textarea::make('description')
 			->rules('required', 'string', 'max:200'),
 
-			Trix::make('Description')
-				->rules('required'),
+			Text::make('Link')
+			->rules('required', 'string', 'url'),
 
 			Image::make('Cover Image', 'image')
 				->disk('public')
-				->maxWidth(130)
 				->disableDownload()
 		];
 	}

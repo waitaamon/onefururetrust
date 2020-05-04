@@ -19,11 +19,13 @@ class CreatePartnersTable extends Migration
 			$table->unsignedBigInteger('interest_id')->nullable();
 			$table->unsignedBigInteger('project_id')->nullable();
 			$table->string('name');
+			$table->string('slug');
 			$table->string('email', 255);
 			$table->string('phone');
 			$table->string('location');
 			$table->double('amount', 8, 2)->nullable();
 			$table->boolean('approved')->default(false);
+			$table->text('description')->nullable();
             $table->timestamps();
         });
     }

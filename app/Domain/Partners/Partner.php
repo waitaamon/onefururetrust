@@ -5,10 +5,23 @@ namespace App\Domain\Partners;
 use App\Domain\Projects\Project;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+use Spatie\MediaLibrary\HasMedia\HasMedia;
+use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 
-class Partner extends Model
+class Partner extends Model implements HasMedia
 {
-	protected $fillable = ['category', 'interest_id', 'project_id', 'name', 'location', 'email', 'phone', 'amount', 'approved'];
+	use HasMediaTrait;
+
+	protected $fillable = ['category', 'interest_id', 'project_id', 'name', 'slug', 'description', 'location', 'email', 'phone', 'amount', 'approved'];
+
+	protected static function boot()
+	{
+		parent::boot();
+
+		static::saving(function (Partner $partner) {
+			$partner->slug = Str::slug($partner->name);
+		});
+	}
 
 	public function interest()
 	{
@@ -23,5 +36,16 @@ class Partner extends Model
 	public function scopeActive($query)
 	{
 		return $query->where('approved', true);
+	}
+
+	public function registerMediaCollections()
+	{
+		$this->addMediaCollection('logo')->singleFile();
+		$this->addMediaConversion('logo-thumb')->width(130)->height(130);
+		$this->addMediaConversion('logo-medium-size')->width(200)->height(200);
+
+		$this->addMediaCollection('gallery');
+		$this->addMediaConversion('thumb')->width(130)->height(130);
+		$this->addMediaConversion('medium-size')->width(200)->height(200);
 	}
 }

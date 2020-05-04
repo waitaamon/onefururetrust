@@ -73,7 +73,6 @@ class Project extends Resource
 
 			Image::make('Cover Image')
 				->disk('public')
-				->maxWidth(130)
 				->disableDownload(),
 		];
 	}

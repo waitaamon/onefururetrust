@@ -6,8 +6,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                        <span class="text-white">Contact Us</span>
-                        <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
+                        <span class="" style="color: rgba(7, 171, 85, 1) ">Contact Us</span>
+                        <h3 class="text-capitalize mb-2 h3 text-white">Get in Touch</h3>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@
             <slide v-for="slider in sliders" :key="slider.id">
                 <div
                         class="image-slider d-flex justify-content-center align-items-center"
-                        :style='{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(${slider.image})` }'
+                        :style='{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(${slider.image})` }'
                 >
                     <div class="text-center">
                         <h2

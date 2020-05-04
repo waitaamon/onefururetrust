@@ -22,7 +22,7 @@ class PartnersController extends Controller
 	{
 		$partners = Partner::where('approved', true)->get();
 
-		return response($partners);
+		return view('partners.index', compact('partners'));
 	}
 
 	public function create()
@@ -48,5 +48,12 @@ class PartnersController extends Controller
 				'interest_id' => $request->interest,
 			], $request->only('name', 'location', 'email', 'phone', 'amount', 'category')
 		));
+	}
+
+	public function show($slug)
+	{
+		$partner = Partner::where('slug', $slug)->firstOrFail();
+
+		return view('partners.show', compact('partner'));
 	}
 }

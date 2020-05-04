@@ -6,8 +6,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="block text-center">
-                        <span class="" style="color: rgba(7, 171, 85, 1) ">What we do</span>
-                        <h3 class="text-capitalize mb-2 h3 text-white">Our Causes</h3>
+                        <span class="" style="color: rgba(7, 171, 85, 1) ">Volunteer / Donor / Organizations</span>
+                        <h3 class="text-capitalize mb-2 h3 text-white">Our partners</h3>
                     </div>
                 </div>
             </div>
@@ -18,17 +18,16 @@
     <section class="section causes">
         <div class="container">
             <div class="row">
-                @foreach($projects as $project)
+                @foreach($partners as $partner)
                     <div class="col-md-3">
                         <div class="card mb-4 cause-item">
                             <div class="row no-gutters">
-                                <img src="{{ asset('storage/'. $project->cover_image) }}" class="img-fluid img-thumbnail w-100" alt="" style="max-height: 200px">
+                                <img src="{{ asset($partner->getMedia('logo')->first()->getUrl()) }}" class="img-fluid img-thumbnail w-100" alt="" style="max-height: 150px">
 
                                 <div class="card-body">
-                                    <h3 class="mb-2"><a href="#">{{ $project->title }}</a></h3>
-                                    <p class="card-text mb-4 text-sm text-justify">{{ $project->short_description }}.</p>
-
-                                    <a href="/get-involved" class="btn btn-main rounded">Join us</a>
+                                    <a href="{{ '/partner/details/'. $partner->slug }}">
+                                        <h3 class="mb-2">{{ $partner->name }}</h3>
+                                    </a>
                                 </div>
                             </div>
                         </div>
