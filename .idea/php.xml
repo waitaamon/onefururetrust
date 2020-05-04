@@ -110,6 +110,7 @@
       <path value="$PROJECT_DIR$/vendor/spatie/temporary-directory" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/ebess/advanced-nova-media-library" />
+      <path value="$PROJECT_DIR$/vendor/timothyasp/nova-color-field" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

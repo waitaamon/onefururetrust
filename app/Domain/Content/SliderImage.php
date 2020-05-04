@@ -11,7 +11,7 @@ class SliderImage extends Model implements HasMedia
 {
 	use HasMediaTrait;
 
-    protected $fillable = ['identifier', 'active'];
+    protected $fillable = ['identifier', 'title', 'subtitle', 'title_color', 'subtitle_color', 'active'];
 
 	protected static function boot()
 	{

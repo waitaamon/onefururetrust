@@ -16,6 +16,10 @@ class CreateSliderImagesTable extends Migration
         Schema::create('slider_images', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->uuid('identifier');
+            $table->string('title')->nullable();
+            $table->text('subtitle')->nullable();
+            $table->string('title_color')->default('#024a7d');
+            $table->string('subtitle_color')->default('#f29200');
             $table->boolean('active');
             $table->timestamps();
         });

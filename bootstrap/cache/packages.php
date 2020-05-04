@@ -81,4 +81,11 @@
       0 => 'Spatie\\MediaLibrary\\MediaLibraryServiceProvider',
     ),
   ),
+  'timothyasp/nova-color-field' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Timothyasp\\Color\\FieldServiceProvider',
+    ),
+  ),
 );

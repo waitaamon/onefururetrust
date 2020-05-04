@@ -8,7 +8,9 @@ use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use Timothyasp\Color\Color;
 
 class SliderImage extends Resource
 {
@@ -52,6 +54,20 @@ class SliderImage extends Resource
 	{
 		return [
 			ID::make()->sortable(),
+
+			Text::make('Title')
+			->rules('nullable', 'string', 'max:255'),
+
+			Text::make('Subtitle')
+			->rules('nullable', 'string', 'max:350')
+			->hideFromIndex(),
+
+			Color::make('Title Color')
+			->hideFromIndex(),
+
+			Color::make('Subtitle Color')
+			->hideFromIndex(),
+
 			Images::make('Slider image', 'image')
 				->conversionOnPreview('medium-size')
 				->conversionOnDetailView('thumb')

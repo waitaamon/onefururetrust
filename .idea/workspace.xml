@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3e226e-5ecb-40c6-a548-6ad01fec63f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/onefuturetrust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onefuturetrust.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ObjectiveSlider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ObjectiveSlider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Domain/Content/SliderImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/Content/SliderImage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Nova/SliderImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Nova/SliderImage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/packages.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/packages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_20_052516_create_slider_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_20_052516_create_slider_images_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onefuture_db.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +153,7 @@
       <path value="$PROJECT_DIR$/vendor/spatie/temporary-directory" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/ebess/advanced-nova-media-library" />
+      <path value="$PROJECT_DIR$/vendor/timothyasp/nova-color-field" />
     </include_path>
   </component>
   <component name="ProjectId" id="1acOTpIIWckOsOr1h2qeQnP1XhM" />
@@ -200,7 +210,10 @@
       <workItem from="1587356555061" duration="25048000" />
       <workItem from="1587444203526" duration="25380000" />
       <workItem from="1587510112309" duration="13539000" />
-      <workItem from="1587618864594" duration="9855000" />
+      <workItem from="1587618864594" duration="12247000" />
+      <workItem from="1587796573301" duration="1787000" />
+      <workItem from="1587995373781" duration="274000" />
+      <workItem from="1588594644914" duration="1605000" />
     </task>
     <servers />
   </component>
@@ -219,6 +232,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1587459873621" />
+    <state x="739" y="267" key="FileChooserDialogImpl" timestamp="1587995649435">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="267" key="FileChooserDialogImpl/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1587995649435" />
     <state x="794" y="444" key="NewPhpFileDialog" timestamp="1587377970628">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -231,9 +248,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1587449353119" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1587622836809">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588594976224">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1587622836809" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1588594976224" />
   </component>
 </project>
