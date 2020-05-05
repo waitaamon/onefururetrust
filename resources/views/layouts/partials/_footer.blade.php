@@ -13,14 +13,14 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
+            <div class="col-lg-4 col-md-6 col-sm-6 ">
                 <div class="widget footer-widget">
                     <h5 class="text-capitalize mb-4 text-white h5">Quick Links</h5>
 
-                    <ul class="list-unstyled footer-menu lh-35 text-center">
+                    <ul class="list-unstyled footer-menu lh-35">
                         <li><a href="/about-us">About</a></li>
                         <li><a href="/projects">Projects</a></li>
-                        <li><a href="/events">Events</a></li>
+                        <li><a href="/partners">Partners</a></li>
                         <li><a href="/contact-us">Contact</a></li>
                     </ul>
                 </div>
