@@ -41,100 +41,107 @@
         </div>
     </div>
 
-    <section class="section latest-blog">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 text-center">
-                    <div class="section-title">
-                        <h2 class="mt-3 content-title-min-primary">Latest projects</h2>
+    @if(count($projects))
+        <section class="section latest-blog">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                        <div class="section-title">
+                            <h2 class="mt-3 content-title-min-primary">Latest projects</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            @if($projects->count())
-                <div class="row justify-content-start">
-                    @foreach($projects as $project)
-                        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                            <div class="card blog-item">
-                                <img src="{{ asset('storage/'. $project->cover_image) }}" alt="" class="img-fluid"
-                                     style="max-height: 200px">
+                @if($projects->count())
+                    <div class="row justify-content-start">
+                        @foreach($projects as $project)
+                            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                                <div class="card blog-item">
+                                    <img src="{{ asset('storage/'. $project->cover_image) }}" alt="" class="img-fluid"
+                                         style="max-height: 200px">
 
-                                <div class="card-body mt-2">
-                                    <span class="text-sm text-color text-uppercase font-weight-bold">{{ $project->date->format('Y-M-d') }}</span>
-                                    <h3 class="mb-3"><a href="{{ '/projects/' . $project->slug }}"
-                                                        class="">{{ $project->title }}</a></h3>
-                                    <p class="text-sm text-justify">{{ $project->short_description }}</p>
+                                    <div class="card-body mt-2">
+                                        <span class="text-sm text-color text-uppercase font-weight-bold">{{ $project->date->format('Y-M-d') }}</span>
+                                        <h3 class="mb-3"><a href="{{ '/projects/' . $project->slug }}"
+                                                            class="">{{ $project->title }}</a></h3>
+                                        <p class="text-sm text-justify">{{ $project->short_description }}</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    @endforeach
-                </div>
-            @endif
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-divider"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section intro">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12">
-                    <div class="section-title text-center">
-                        <h2 class="mt-3 content-title-min-primary">Events</h2>
+                        @endforeach
                     </div>
-                </div>
+                @endif
             </div>
+        </section>
 
-            <events-slider></events-slider>
-
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-divider"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="section gallery">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7 text-center">
-                    <div class="section-title">
-                        <h2 class="mt-3 content-title-min-primary">Our gallery</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="gallery-wrap">
+        <section>
+            <div class="container">
                 <div class="row">
-                    @foreach($photos as $photo)
-                        <div class="gallery-item col-6 col-md-3">
-                            <a href="{{ url($photo->getFullUrl()) }}" class="gallery-popup thumbnail h-auto">
-                                <img src="{{ url($photo->getFullUrl()) }}" alt=""
-                                     class="img-fluid img-thumbnail w-100">
-                            </a>
-                        </div>
-                    @endforeach
+                    <div class="col-lg-12">
+                        <div class="section-divider"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    @endif
+
+    @if(count($events))
+        <section class="section intro">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h2 class="mt-3 content-title-min-primary">Events</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <events-slider></events-slider>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-divider"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    @endif
+
+
+    @if(count($photos))
+        <section class="section gallery">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                        <div class="section-title">
+                            <h2 class="mt-3 content-title-min-primary">Our gallery</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="gallery-wrap">
+                    <div class="row">
+                        @foreach($photos as $photo)
+                            <div class="gallery-item col-6 col-md-3">
+                                <a href="{{ url($photo->getFullUrl()) }}" class="gallery-popup thumbnail h-auto">
+                                    <img src="{{ url($photo->getFullUrl()) }}" alt=""
+                                         class="img-fluid img-thumbnail w-100">
+                                </a>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </section>
+    @endif
 
     <section>
         <div class="container">
