@@ -32,6 +32,7 @@
                     <ul class="list-unstyled footer-socials lh-35">
                         <li><a href="https://www.facebook.com/One-World-One-Future-103481077971543" target="_blank"><i class="icofont-facebook"></i></a></li>
                         <li class="mt-2"><a href="https://twitter.com/OneWorldOneFut1" target="_blank"><i class="icofont-twitter"></i></a></li>
+                        <li class="mt-2"><a href="https://www.linkedin.com/company/one-world-one-future-trust" target="_blank"><i class="icofont-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>

@@ -12,6 +12,7 @@
                     <div class="header-top-right text-center text-lg-right text-md-right mt-3 mt-lg-0">
                         <a href="https://www.facebook.com/One-World-One-Future-103481077971543" target="_blank"><i class="icofont-facebook"></i></a>
                         <a href="https://twitter.com/OneWorldOneFut1" target="_blank"><i class="icofont-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/one-world-one-future-trust" target="_blank"><i class="icofont-linkedin"></i></a>
                         <a href="/get-involved" class="top-btn">Get Involved</a>
                     </div>
                 </div>

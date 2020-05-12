@@ -10,8 +10,7 @@
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <span class="text-color ">What we do</span>
-                        <h2 class="mt-3 content-title-min-primary">TOWARDS A BETTER WORLD</h2>
+                        <h2 class="mt-3 content-title-min-primary">What we do</h2>
                     </div>
                 </div>
                 <div class="col-12">
@@ -99,6 +98,15 @@
         </div>
     </section>
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="section gallery">
