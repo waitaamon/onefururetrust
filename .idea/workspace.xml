@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6c3e226e-5ecb-40c6-a548-6ad01fec63f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/landing/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ObjectiveSlider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ObjectiveSlider.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +13,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -57,13 +55,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\code\one-world\onefuturetrust\.idea" />
-      </set>
-    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -184,7 +175,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -240,12 +230,13 @@
       <workItem from="1588594644914" duration="12108000" />
       <workItem from="1588656974655" duration="1411000" />
       <workItem from="1588687279502" duration="2710000" />
-      <workItem from="1589264459855" duration="908000" />
+      <workItem from="1589264459855" duration="1493000" />
+      <workItem from="1589266557291" duration="1149000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -259,6 +250,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="731" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1587513603815" />
+    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589265516022">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1589265516022" />
     <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1588597737193">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
