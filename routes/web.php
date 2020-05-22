@@ -12,6 +12,9 @@ Route::get('gallery', 'Content\GalleryController');
 Route::get('events', 'Content\EventsController@index');
 Route::get('events/{slug}', 'Content\EventsController@show');
 
+Route::get('blog', 'Content\BlogController@index');
+Route::get('blog/article/{slug}', 'Content\BlogController@show');
+
 
 Route::get('contact-us', 'Contacts\ContactController@index')->name('contact.index');
 Route::post('contact-us', 'Contacts\ContactController@store')->name('contact.post');

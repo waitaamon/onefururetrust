@@ -49,6 +49,9 @@
                         <a class="nav-link" href="/partners">Partners</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/contact-us">Contact us</a>
                     </li>
                 </ul>
