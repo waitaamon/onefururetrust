@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3e226e-5ecb-40c6-a548-6ad01fec63f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Domain/Content/Blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_22_072821_create_blogs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/mount_2122203a.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Nova/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Nova/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +234,7 @@
       <workItem from="1588687279502" duration="2710000" />
       <workItem from="1589264459855" duration="1493000" />
       <workItem from="1589266557291" duration="3729000" />
-      <workItem from="1590132242984" duration="1099000" />
+      <workItem from="1590132242984" duration="1619000" />
     </task>
     <servers />
   </component>
@@ -257,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1589265516022" />
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1590132698039">
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1590133542709">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1590132698039" />
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1590133542709" />
     <state x="739" y="267" key="FileChooserDialogImpl" timestamp="1589287851061">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
