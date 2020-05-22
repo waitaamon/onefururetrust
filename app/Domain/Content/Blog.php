@@ -22,6 +22,8 @@ class Blog extends Model
 
 		static::saving(function (Blog $blog) {
 			$blog->slug = Str::slug($blog->title);
+
+			$blog->published ? $blog->published_on = now() : null;
 		});
 	}
 

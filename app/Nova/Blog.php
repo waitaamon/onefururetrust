@@ -55,10 +55,10 @@ class Blog extends Resource
 			ID::make()->sortable(),
 
 			Text::make('Title')
-				->rules('required', 'string'),
+				->rules('required', 'string', 'max:200'),
 
 			Textarea::make('description')
-				->rules('required', 'string', 'max:200'),
+				->rules('required', 'string', 'max:250'),
 
 			Image::make('Cover Image', 'cover')
 				->disk('public')
