@@ -39,11 +39,14 @@
                         <ul class="social-icons list-inline mt-5">
                             <li><h6 class="mb-3">Find us on social media</h6></li>
                             <li class="list-inline-item">
-                                <a href="https://www.facebook.com/One-World-One-Future-103481077971543"><i
+                                <a target="_blank" href="https://www.facebook.com/One-World-One-Future-103481077971543"><i
                                             class="icofont-facebook mr-2"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://twitter.com/OneWorldOneFut1"><i class="icofont-twitter mr-2"></i></a>
+                                <a target="_blank" href="https://twitter.com/OneWorldOneFut1"><i class="icofont-twitter mr-2"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.linkedin.com/company/one-world-one-future-trust"><i class="icofont-linkedin mr-2"></i></a>
                             </li>
                         </ul>
                     </div>
