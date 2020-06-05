@@ -73,6 +73,7 @@ trait Storable
      */
     public function getStoragePath()
     {
-        throw new RuntimeException('You must implement getStoragePath method for deleting uploaded files.');
+		return $this->storagePath;
+//        throw new RuntimeException('You must implement getStoragePath method for deleting uploaded files.');
     }
 }
