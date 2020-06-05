@@ -5,8 +5,7 @@ namespace App\Domain\Partners;
 use App\Domain\Projects\Project;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
-use Spatie\MediaLibrary\HasMedia\HasMedia;
-use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
+use Spatie\MediaLibrary\HasMedia\{HasMedia, HasMediaTrait};
 
 class Partner extends Model implements HasMedia
 {

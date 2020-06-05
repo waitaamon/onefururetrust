@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3e226e-5ecb-40c6-a548-6ad01fec63f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/onefuturetrust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onefuturetrust.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Domain/Partners/Partner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/Partners/Partner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Partners/PartnersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Partners/PartnersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/RegisterPartner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/RegisterPartner.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +209,7 @@
       <workItem from="1590132242984" duration="4290000" />
       <workItem from="1590744564381" duration="1843000" />
       <workItem from="1590769530252" duration="47000" />
-      <workItem from="1591335705725" duration="2370000" />
+      <workItem from="1591335705725" duration="2702000" />
     </task>
     <servers />
   </component>
