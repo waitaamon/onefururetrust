@@ -35,13 +35,6 @@
             </span>
         </div>
 
-        <div class="form-group" v-if="form.category === 'donor'">
-            <input type="text" class="form-control" placeholder="Amount" v-model="form.amount">
-            <span class="invalid-feedback" role="alert" v-if="errors.amount">
-                <strong>{{ errors.amount[0] }}</strong>
-            </span>
-        </div>
-
         <div class="form-group" v-if="form.category === 'volunteer'">
             <select name="" class="form-control" v-model="form.project">
                 <option value="">Select interested project</option>
@@ -108,7 +101,6 @@
 					email: '',
 					phone: '',
 					category: '',
-					amount: '',
 					interest: '',
 					project: '',
 				}

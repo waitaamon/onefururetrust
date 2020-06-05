@@ -12,7 +12,7 @@ class Partner extends Model implements HasMedia
 {
 	use HasMediaTrait;
 
-	protected $fillable = ['category', 'interest_id', 'project_id', 'name', 'slug', 'description', 'location', 'email', 'phone', 'amount', 'approved'];
+	protected $fillable = ['category', 'interest_id', 'project_id', 'name', 'slug', 'description', 'location', 'email', 'phone', 'approved'];
 
 	protected static function boot()
 	{

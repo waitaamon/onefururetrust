@@ -38,7 +38,6 @@ class PartnersController extends Controller
 			'email' => 'required|string|email|max:200',
 			'phone' => 'required|string|min:3|max:20',
 			'category' => 'required|string',
-			'amount' => 'nullable|numeric',
 			'interest' => ' nullable|integer',
 			'project' => 'nullable|integer',
 		]);
@@ -46,7 +45,7 @@ class PartnersController extends Controller
 		Partner::create(array_merge([
 				'project_id' => $request->project,
 				'interest_id' => $request->interest,
-			], $request->only('name', 'location', 'email', 'phone', 'amount', 'category')
+			], $request->only('name', 'location', 'email', 'phone', 'category')
 		));
 	}
 
