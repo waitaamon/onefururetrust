@@ -2,15 +2,15 @@
   'app' => 
   array (
     'name' => 'One Future Trust',
-    'env' => 'local',
+    'env' => 'production',
     'debug' => true,
-    'url' => 'http://onefuturetrust.test',
+    'url' => 'http://127.0.0.1:8000',
     'asset_url' => NULL,
     'timezone' => 'UTC',
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:R0knbM4Nkg/G8mBXR+qCw227HeyzO+p7rz32az/lpsM=',
+    'key' => 'base64:6+IvC6FLgRUvatDYk8rNw+ROiu+Oavlz11ng51Wl8rk=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -176,7 +176,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/home/vagrant/code/one-world/onefuturetrust/storage/framework/cache/data',
+        'path' => '/home/wasanii/code/onefuturetrust/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -226,7 +226,7 @@
       array (
         'driver' => 'sqlite',
         'url' => NULL,
-        'database' => 'onefuture',
+        'database' => 'onefuturetrust',
         'prefix' => '',
         'foreign_key_constraints' => true,
       ),
@@ -236,9 +236,9 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'onefuture',
-        'username' => 'homestead',
-        'password' => 'secret',
+        'database' => 'onefuturetrust',
+        'username' => 'root',
+        'password' => 'amon100',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -271,9 +271,9 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'onefuture',
-        'username' => 'homestead',
-        'password' => 'secret',
+        'database' => 'onefuturetrust',
+        'username' => 'root',
+        'password' => 'amon100',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -315,13 +315,13 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/home/vagrant/code/one-world/onefuturetrust/storage/app',
+        'root' => '/home/wasanii/code/onefuturetrust/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/home/vagrant/code/one-world/onefuturetrust/storage/app/public',
-        'url' => 'http://onefuturetrust.test/storage',
+        'root' => '/home/wasanii/code/onefuturetrust/storage/app/public',
+        'url' => 'http://127.0.0.1:8000/storage',
         'visibility' => 'public',
       ),
       's3' => 
@@ -367,13 +367,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/home/vagrant/code/one-world/onefuturetrust/storage/logs/laravel.log',
+        'path' => '/home/wasanii/code/onefuturetrust/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/home/vagrant/code/one-world/onefuturetrust/storage/logs/laravel.log',
+        'path' => '/home/wasanii/code/onefuturetrust/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -423,13 +423,13 @@
       ),
       'emergency' => 
       array (
-        'path' => '/home/vagrant/code/one-world/onefuturetrust/storage/logs/laravel.log',
+        'path' => '/home/wasanii/code/onefuturetrust/storage/logs/laravel.log',
       ),
     ),
   ),
   'mail' => 
   array (
-    'driver' => 'log',
+    'driver' => 'smtp',
     'host' => 'smtp.mailtrap.io',
     'port' => '2525',
     'from' => 
@@ -446,7 +446,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/home/vagrant/code/one-world/onefuturetrust/resources/views/vendor/mail',
+        0 => '/home/wasanii/code/onefuturetrust/resources/views/vendor/mail',
       ),
     ),
     'log_channel' => NULL,
@@ -526,7 +526,7 @@
   array (
     'name' => 'One Future Trust',
     'domain' => NULL,
-    'url' => 'http://onefuturetrust.test',
+    'url' => 'http://127.0.0.1:8000',
     'path' => '/admin',
     'guard' => NULL,
     'passwords' => NULL,
@@ -622,7 +622,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/home/vagrant/code/one-world/onefuturetrust/storage/framework/sessions',
+    'files' => '/home/wasanii/code/onefuturetrust/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -642,9 +642,9 @@
   array (
     'paths' => 
     array (
-      0 => '/home/vagrant/code/one-world/onefuturetrust/resources/views',
+      0 => '/home/wasanii/code/onefuturetrust/resources/views',
     ),
-    'compiled' => '/home/vagrant/code/one-world/onefuturetrust/storage/framework/views',
+    'compiled' => '/home/wasanii/code/onefuturetrust/storage/framework/views',
   ),
   'flare' => 
   array (

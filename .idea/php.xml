@@ -112,6 +112,9 @@
       <path value="$PROJECT_DIR$/vendor/ebess/advanced-nova-media-library" />
       <path value="$PROJECT_DIR$/vendor/timothyasp/nova-color-field" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/laravel/nova" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
