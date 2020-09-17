@@ -41,12 +41,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c3e226e-5ecb-40c6-a548-6ad01fec63f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/onefuturetrust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onefuturetrust.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/1/conversions/hanny-naibaho-388579-unsplash-e1554461063517-medium-size.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/1/conversions/hanny-naibaho-388579-unsplash-e1554461063517-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/1/hanny-naibaho-388579-unsplash-e1554461063517.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/2/conversions/hanny-naibaho-388579-unsplash-e1554461063517-medium-size.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/2/conversions/hanny-naibaho-388579-unsplash-e1554461063517-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/media/2/hanny-naibaho-388579-unsplash-e1554461063517.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +259,9 @@
       <workItem from="1590769530252" duration="47000" />
       <workItem from="1591335705725" duration="4322000" />
       <workItem from="1595576059311" duration="2091000" />
-      <workItem from="1598332507211" duration="1244000" />
+      <workItem from="1598332507211" duration="1312000" />
+      <workItem from="1598335506959" duration="2455000" />
+      <workItem from="1598513296842" duration="1153000" />
     </task>
     <servers />
   </component>
@@ -280,38 +284,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588600078739">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="749" y="216" width="411" height="639" key="#com.intellij.ide.util.MemberChooser" timestamp="1598513721689">
+      <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1588600078739" />
-    <state x="731" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587513603815">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="731" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1587513603815" />
-    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589265516022">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="640" y="261" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1589265516022" />
-    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1590133542709">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="749" y="216" width="411" height="639" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1020@0.27.1920.1020" timestamp="1598513721689" />
+    <state x="690" y="299" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598513734745">
+      <screen x="0" y="27" width="1920" height="1020" />
     </state>
     <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1590133542709" />
-    <state x="739" y="267" key="FileChooserDialogImpl" timestamp="1589287851061">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="690" y="299" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1020@0.27.1920.1020" timestamp="1598513734745" />
+    <state x="318" y="153" width="1279" height="729" key="find.popup" timestamp="1598514435857">
+      <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state x="739" y="267" key="FileChooserDialogImpl/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1589287851061" />
-    <state x="794" y="444" key="NewPhpFileDialog" timestamp="1588598911489">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1588598911489" />
-    <state x="581" y="206" width="758" height="638" key="find.popup" timestamp="1587370786533">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="581" y="206" width="758" height="638" key="find.popup/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1587370786533" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1587449353119">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.156.1366.738@0.0.1920.1050" timestamp="1587449353119" />
+    <state x="318" y="153" width="1279" height="729" key="find.popup/0.27.1920.1020@0.27.1920.1020" timestamp="1598514435857" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1590134587755">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

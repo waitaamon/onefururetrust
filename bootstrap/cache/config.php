@@ -320,8 +320,8 @@
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/home/wasanii/code/onefuturetrust/storage/app/public',
-        'url' => 'http://127.0.0.1:8000/storage',
+        'root' => '/home/wasanii/code/onefuturetrust/public/media',
+        'url' => 'http://127.0.0.1:8000/media',
         'visibility' => 'public',
       ),
       's3' => 
@@ -669,6 +669,7 @@
     'register_commands' => false,
     'ignored_solution_providers' => 
     array (
+      0 => 'Facade\\Ignition\\SolutionProviders\\MissingPackageSolutionProvider',
     ),
     'enable_runnable_solutions' => NULL,
     'remote_sites_path' => '',
